@@ -11,8 +11,8 @@ $mail->SMTPAuth = TRUE;
 $mail->SMTPSecure = "tls";
 $mail->Port     = 587;  
 $mail->Sender	= "Schneider Webdesign";
-$mail->Username = "alexbronnikov76@gmail.com";
-$mail->Password = "Frt141076frt141076";
+$mail->Username = "";
+$mail->Password = "";
 $mail->Host     = "smtp.gmail.com";
 $mail->Mailer   = "smtp";
 
