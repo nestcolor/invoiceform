@@ -97,3 +97,11 @@ span.xLabel {
 	width: 34px!important;
 }
 
+
+
+div.radio-btn, .toggle-btn{
+  margin: 10px 0;
+}
+.submit-btn{
+	margin: 0 5px;
+}

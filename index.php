@@ -96,7 +96,7 @@ require ('helpers/autoload.php');
                     <div class="form-group">
                         <label class="col-lg-2 control-label"><?php echo $lang['attention']; ?>:</label>
                         <div class="col-lg-10">
-	                        <div class="col-lg-12" data-toggle="buttons">
+	                        <div class="col-lg-12 toggle-btn" data-toggle="buttons">
 	                            <label  class="btn btn-primary">
 	                                <input name="attention" value="1" type="radio"><?php echo $lang['yes']; ?>
 	                            </label>
@@ -113,10 +113,12 @@ require ('helpers/autoload.php');
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-lg-12">
-						    <button name="submit" class="col-lg-2 btn btn-success" type="submit" id="contact-submit"><?php echo $lang['submit']; ?></button>
-						    <button name="reset" class="col-lg-2 btn btn-danger" type="reset" id="contact-reset"><?php echo $lang['reset']; ?></button>
-						    <div class="col-lg-2" id="loader-icon" style="display:none;"><img src="loader.gif" /></div>
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-2">
+    						    <button name="submit" class="col-lg-2 btn btn-success submit-btn" type="submit" id="contact-submit"><?php echo $lang['submit']; ?></button>
+                                <button name="reset" class="col-lg-2 btn btn-danger submit-btn" type="reset" id="contact-reset"><?php echo $lang['reset']; ?></button>
+    						    <div class="col-lg-2" id="loader-icon" style="display:none;"><img src="loader.gif" /></div>
+                            </div>
                         </div>
                     </div>
 				</div>

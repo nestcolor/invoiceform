@@ -9,9 +9,10 @@ function get_file($name, $dataFolder) {
     if (($handle = fopen($dataFolder . "/" . $name . ".csv", "r")) !== FALSE) {
         while (($data = fgetcsv($handle))) {
                 ?>
-                <label class="btn btn-default exWidth"><input required name="<?php echo $name; ?>"
-                                                              value="<?php echo $data[0] ?>"
-                                                              type="radio"> <?php echo $data[0] ?> </label>
+                <div class="radio-btn"><input required name="<?php echo $name; ?>"
+                    value="<?php echo $data[0] ?>"
+                    type="radio"> <?php echo $data[0] ?>
+                    </div>
                 <?php
 
         }
